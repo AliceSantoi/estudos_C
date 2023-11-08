@@ -3,7 +3,8 @@
 
 int main(){ 
     
-    int num,i,resul = 0;
+    int num;
+
     
     printf("---------------------\n");
     printf("TABUADA DO 1 AO 9\n");
@@ -11,10 +12,9 @@ int main(){
     printf("Digite o numero: ");
     scanf("%i",&num);
 
-    for(i=1;i<=9;i++){
-        resul = (num * i);
-        printf("\n%d x %d = %d\n ",num,i,resul);
-    };
-
+    for(int i=1;i<=9;i++){
+        printf("\n%d x %d = %d\n ",i,num,num * i);
+    }
+        
     return 0;
 }
