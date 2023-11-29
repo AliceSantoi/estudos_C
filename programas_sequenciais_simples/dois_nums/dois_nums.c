@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 //continuar em: linha(54) - procurar como limpar a tela apos entrada de valores
+//comentario de teste
 
 
 void linha(){
