@@ -1,0 +1,1 @@
+/*molhorar o código usando função*/

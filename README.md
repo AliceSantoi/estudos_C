@@ -1,0 +1,1 @@
+Usarei este diretório como diário de evolução, deixarei aqui todos os códigos criados na linguagem C.
