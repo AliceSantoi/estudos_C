@@ -1,16 +1,17 @@
 #include <stdio.h>
 #include <locale.h>
 
-/*2. Crie uma função, sem retorno, que recebe um valor inteiro por parâmetro e informa
-se ele é positivo, negativo ou neutro*/
+/*2. Crie uma funï¿½ï¿½o, sem retorno, que recebe um valor inteiro por parï¿½metro e informa
+se ele ï¿½ positivo, negativo ou neutro*/
 
 void pnn(int n);
 
 int main(){
-	setlocale(LC_ALL,"portuguese");
-	
+	//setlocale(LC_ALL,"pt-BR");
+	setlocale(LC_ALL,"pt-br");
+
 	int num;
-	printf("Insira o número: ");
+	printf("Insira o nï¿½mero: ");
 	scanf("%d",&num);
 	
 	pnn(num);
@@ -22,5 +23,5 @@ int main(){
 }
 
 void pnn(int n){
-	n > 0 ? printf("%d é positivo!",n) : n < 0 ? printf("%d é negativo!",n) : printf("%d é nulo!",n);
+	n > 0 ? printf("%d ï¿½ positivo!",n) : n < 0 ? printf("%d ï¿½ negativo!",n) : printf("%d ï¿½ nulo!",n);
 }

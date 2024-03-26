@@ -1,27 +1,27 @@
 #include <stdio.h>
 #include <locale.h>
-/*1. Implemente uma função, sem retorno, que recebe um valor inteiro por parâmetro e
-informa se é, ou não, igual a zero.*/
+/*1. Implemente uma funï¿½ï¿½o, sem retorno, que recebe um valor inteiro por parï¿½metro e
+informa se ï¿½, ou nï¿½o, igual a zero.*/
 
-void igual(n); 
+void igual(int num); 
 
 int main(){
 	int n;
 	setlocale(LC_ALL,"portuguese");
 	
-	printf("Insira o número: ");
+	printf("Insira o nï¿½mero: ");
 	scanf("%d",&n);
-	igual();
+	igual(n);
 	
 	
 	
 	return(0);
 }
 
-void igual(n){
-	if(n == 0){
-		printf("é igual a zero!");
+void igual(int num){
+	if(num == 0){
+		printf("ï¿½ igual a zero!");
 	}else{
-		printf("Não é igual a zero.");
+		printf("Nï¿½o ï¿½ igual a zero.");
 	}
 }
