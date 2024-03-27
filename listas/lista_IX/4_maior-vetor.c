@@ -5,6 +5,7 @@
 ao final, informa o maior valor encontrado no vetor*/
 
 int main(){
+//pode tirar a atribuição e deixar para iniciliza-la no antes do segundo laço for
 	int num[10],i,maior = 0;
 
 	for(i = 0;i < 10;i++){
